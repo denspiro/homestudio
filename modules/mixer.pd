@@ -1,4 +1,4 @@
-#N canvas 404 66 1505 971 10;
+#N canvas 374 66 1535 971 10;
 #X obj 640 113 *~;
 #X obj 445 111 *~;
 #X obj 133 188 hsl 45 15 0 127 0 1 \$0-get-pan \$0-set-pan pan -2 -9 0 9 #fcfcfc #000000 #000000 2100 1;
@@ -27,7 +27,7 @@
 #X floatatom 639 532 5 0 0 0 - - - 0;
 #X obj 639 555 - 100;
 #X obj 639 500 env~;
-#X obj 187 188 tgl 15 1 \$0-get-mute \$0-set-mute mute 0 -10 0 9 #fcfcfc #000000 #000000 1 1;
+#X obj 187 188 tgl 15 1 \$0-get-mute \$0-set-mute mute 0 -10 0 10 #fcfcfc #000000 #000000 1 1;
 #X obj 445 471 *~;
 #X obj 639 471 *~;
 #X obj 445 585 s \$0-uv-l;
@@ -78,14 +78,14 @@
 #X obj 875 1049 s \$0-set-send-a;
 #X obj 892 1029 s \$0-set-send-b;
 #X obj 908 1007 s \$0-set-send-c;
-#X obj 101 391 cnv 5 5 5 empty empty L 1 -5 0 9 #ceb848 #404040 0;
-#X obj 112 391 cnv 5 5 5 empty empty R 1 -5 0 9 #ceb848 #404040 0;
-#X obj 123 391 cnv 5 5 5 empty empty A 1 -5 0 9 #ceb848 #404040 0;
-#X obj 134 391 cnv 5 5 5 empty empty A 1 -5 0 9 #ceb848 #404040 0;
-#X obj 146 391 cnv 5 5 5 empty empty B 1 -5 0 9 #ceb848 #404040 0;
-#X obj 157 391 cnv 5 5 5 empty empty B 1 -5 0 9 #ceb848 #404040 0;
-#X obj 169 391 cnv 5 5 5 empty empty C 1 -5 0 9 #ceb848 #404040 0;
-#X obj 180 391 cnv 5 5 5 empty empty C 1 -5 0 9 #ceb848 #404040 0;
+#X obj 101 391 cnv 5 5 5 empty empty L 1 -5 0 10 #ceb848 #404040 0;
+#X obj 112 391 cnv 5 5 5 empty empty R 1 -5 0 10 #ceb848 #404040 0;
+#X obj 123 391 cnv 5 5 5 empty empty A 1 -5 0 10 #ceb848 #404040 0;
+#X obj 134 391 cnv 5 5 5 empty empty A 1 -5 0 10 #ceb848 #404040 0;
+#X obj 146 391 cnv 5 5 5 empty empty B 1 -5 0 10 #ceb848 #404040 0;
+#X obj 157 391 cnv 5 5 5 empty empty B 1 -5 0 10 #ceb848 #404040 0;
+#X obj 169 391 cnv 5 5 5 empty empty C 1 -5 0 10 #ceb848 #404040 0;
+#X obj 180 391 cnv 5 5 5 empty empty C 1 -5 0 10 #ceb848 #404040 0;
 #X obj 108 125 vsl 18 40 0 1 0 0 \$0-get-send-a \$0-set-send-a A 5 -10 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 134 125 vsl 18 40 0 1 0 0 \$0-get-send-b \$0-set-send-b B 5 -9 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 160 125 vsl 18 40 0 1 0 0 \$0-get-send-c \$0-set-send-c C 5 -9 0 10 #fcfcfc #000000 #000000 0 1;
@@ -104,7 +104,7 @@
 #X obj 956 929 s \$0-set-input-r;
 #X text 814 29 Sends;
 #X obj 653 61 r \$0-get-vol;
-#X obj 104 358 tgl 15 1 \$0-get-out-toggle \$0-set-out-toggle out 0 -11 0 9 #fcfcfc #000000 #000000 0 1;
+#X obj 104 358 tgl 15 1 \$0-get-out-toggle \$0-set-out-toggle out 0 -11 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 515 474 r \$0-get-out-toggle;
 #X obj 501 510 *~;
 #X obj 542 510 *~;
@@ -122,8 +122,8 @@
 #X obj 915 717 r \$0-get-send-d;
 #X obj 827 889 unpack f f f f f f f f f;
 #X obj 923 983 s \$0-set-send-d;
-#X obj 192 391 cnv 5 5 5 empty empty D 1 -5 0 8 #ceb848 #404040 0;
-#X obj 203 391 cnv 5 5 5 empty empty D 1 -5 0 8 #ceb848 #404040 0;
+#X obj 192 391 cnv 5 5 5 empty empty D 1 -5 0 10 #ceb848 #404040 0;
+#X obj 203 391 cnv 5 5 5 empty empty D 1 -5 0 10 #ceb848 #404040 0;
 #X connect 0 0 4 0;
 #X connect 1 0 3 0;
 #X connect 3 0 14 0;

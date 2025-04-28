@@ -1,4 +1,4 @@
-#N canvas 964 66 945 971 10;
+#N canvas 404 66 1505 971 10;
 #X obj 48 457 umc1820-i;
 #X obj 36 16 umc1820-o;
 #X obj 360 51 midisync_in;
@@ -8,6 +8,9 @@
 #X obj 195 100 mixer;
 #A saved 0.779874 1 63.5 0 0 0 0 2 1;
 #X obj 364 99 clock-adapter;
+#X obj 403 191 clock;
+#X obj 403 292 scope;
 #X connect 1 0 3 0;
 #X connect 1 1 3 1;
 #X connect 2 1 6 1;
+#X connect 7 0 8 0;
